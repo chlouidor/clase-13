@@ -54,7 +54,7 @@ $("document").ready(function(){
     }
 
 
-})
+
 
 $("#btnRestar").click(function(){
 
@@ -91,7 +91,7 @@ $("#btnRestar").click(function(){
         return;
     }
 
-    resultado = parseInt(numero1) + parseInt(numero2); 
+    resultado = parseInt(numero1) - parseInt(numero2); 
     $("#resultado").text(resultado);
     $("#resultado").css("fontSize","2rem");
     limpiar();
